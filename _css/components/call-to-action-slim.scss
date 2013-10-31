@@ -1,0 +1,74 @@
+body {
+	#container {
+		& > article {
+			& .slim-cta-banner {
+				margin-bottom: 20px;
+				
+				& > h2 {
+					margin-bottom: 0px !important;
+					height: 93px;
+					border: 7px #d9d9d9 solid;
+					background-color: #383732;
+					background-image: url(../_images/elements/cta-slim-banner-armed_forces.jpg);
+					background-repeat: no-repeat;
+					background-position: -50px top;
+					box-shadow: 0px 0px 18px rgba(0, 0, 0, 0.88) inset;
+					-moz-box-shadow: 0px 0px 18px rgba(0, 0, 0, 0.88) inset;
+					-webkit-box-shadow: 0px 0px 18px rgba(0, 0, 0, 0.88) inset;
+					
+					& > strong {
+						display: block;
+						width: 48%;
+						position: relative;
+						left: 210px;
+						top: 29px;
+						font-size: 21px;
+						line-height: 21px;
+						font-weight: 300;
+						color: #fff;
+						text-shadow: none;
+					}
+					& .button {
+						position: relative;
+						float: right;
+						right: 25px;
+						top: -3px;
+					}
+				}
+				& > div {
+					display: none;
+					padding: 20px;
+					background-color: #787673;
+					border-left: 7px #d9d9d9 solid;
+					border-right: 7px #d9d9d9 solid;
+					border-bottom: 7px #d9d9d9 solid;
+					box-shadow: 0px 0px 18px rgba(0, 0, 0, 0.88) inset;
+					-moz-box-shadow: 0px 0px 18px rgba(0, 0, 0, 0.88) inset;
+					-webkit-box-shadow: 0px 0px 18px rgba(0, 0, 0, 0.88) inset;
+					
+					& p {
+						color: #fff;
+						font-size: 16px;
+						line-height: 26px;
+					}
+				}
+			}
+		}
+	}
+}
+
+/*
+                            <div class="slim-cta-banner slim-cta-banner-preset-armed_forces">
+                            	<h2>
+                                	How We Support the Armed Forces
+                                    <a href="javascript:;" class="trigger right button button-purple button-icon-arrow-right" data-text-expanded="Show Less" data-text-collapsed="Show More"><strong>Show More</strong></a>
+                                </h2>
+                                <div>
+                                    <p>In accordance with the Department of Defense Instruction 1322.25, March 2011, Enclosure 3, the DANTES mission is to support the off-duty voluntary education programs of the Department of Defense (DoD) and conduct special projects and developmental activities in support of education-related DoD functions.</p>
+                                    <p>We offer many different programs and services that support all of the DOD components and the Coast Guard. Much of what we present on our Web site is purely informational in nature and you can use it regardless of whether or not you are affiliated with the Department of Defense.</p>
+                                    <p>If you are interested in a specific program, click on the appropriate link in the navigation menu to the left to view information about that program.</p>
+                                    <p>For more information about any of the programs we offer or if you have questions about your eligibility, contact the appropriate DANTES Program Manager. You can find contact information via the "Contact Us" link at the top of the page.</p>
+                                    <p>In addition, contact your local education center representative for more information and assistance.</p>
+                                </div>
+                            </div>
+*/
