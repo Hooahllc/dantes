@@ -328,12 +328,10 @@
             .animate( {
               //
               // Set the 'top' property to the document scroll plus the calculated top measure.
-              //
-              "top": $doc.scrollTop() + topMeasure + 'px',
+              //index.html"top": $doc.scrollTop() + topMeasure + 'px',
               //
               // Set it to full opacity.
-              //
-              "opacity": 1
+              //index.html"opacity": 1
 
             },
             /*
@@ -388,8 +386,7 @@
             .animate( {
               //
               // Set to full opacity.
-              //
-              "opacity": 1
+              //index.html"opacity": 1
             },
 
             /*
@@ -494,12 +491,10 @@
             modal.animate( {
               //
               // Set the top property to the document scrollTop minus calculated topOffset.
-              //
-              "top":  $doc.scrollTop() - topOffset + 'px',
+              //index.html"top":  $doc.scrollTop() - topOffset + 'px',
               //
               // Fade the modal out, by using the opacity property.
-              //
-              "opacity": 0
+              //index.html"opacity": 0
 
             },
             /*

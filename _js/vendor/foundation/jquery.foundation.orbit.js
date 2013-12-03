@@ -222,8 +222,8 @@
 
       if (this.options.fluid) {
         if (typeof this.options.fluid === "string") {
-          // $fluidPlaceholder = $("<img>").attr("src", "http://placehold.it/" + this.options.fluid);
-          $fluidPlaceholder = $("<img>").attr("data-src", "holder.js/" + this.options.fluid);
+          // $fluidPlaceholder = $("<img>").attr("src", "http://placehold.it/index.html" + this.options.fluid);
+          $fluidPlaceholder = $("<img>").attr("data-src", "holder.js/index.html" + this.options.fluid);
           //var inner = $("<div/>").css({"display":"inline-block", "width":"2px", "height":"2px"});
           //$fluidPlaceholder = $("<div/>").css({"float":"left"});
           //$fluidPlaceholder.wrapInner(inner);
@@ -876,7 +876,7 @@ app.run = function (o) {
 			var render = false,
 				dimensions = null,
 				text = null;
-			var flags = src.substr(src.indexOf(options.domain) + options.domain.length + 1).split("/");
+			var flags = src.substr(src.indexOf(options.domain) + options.domain.length + 1).split("/index.html");
 			for (sl = flags.length, j = 0; j < sl; j++) {
 				if (app.flags.dimensions.match(flags[j])) {
 					render = true;
