@@ -218,11 +218,13 @@ body {
             padding-bottom: 7px;
 
             & > section {
-                padding: 22px 0px 23px 0px;
                 background-color: #c6c6c6;
 
                 & > .content {
                     & > div {
+                        padding-top: 22px;
+                        padding-bottom: 23px;
+
                         & > nav {
                             margin: 0px;
                             padding: 0px 0px 6px 0px;
@@ -352,6 +354,7 @@ body {
 @import "components/headline-with-big-icon";
 @import "components/resources-icon-header";
 @import "components/resources-icon-header-presets";
+@import "components/sitemap";
 @import "components/spotlight";
 @import "components/buttons";
 @import "components/accordion";

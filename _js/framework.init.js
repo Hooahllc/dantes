@@ -2,6 +2,18 @@ jQuery(document).ready(function() {
     framework.fn.global.findExternalLinks();
     framework.fn.nav.init();
 
+    jQuery('#container>footer>section>.content>a.sitemap-trigger').bind('click', function(objEvent) {
+        objEvent.preventDefault();
+
+        if (jQuery(this).hasClass('open')) {
+            jQuery(this).removeClass('open');
+            jQuery('#container>menu.sitemap').slideUp();
+        } else {
+            jQuery(this).addClass('open');
+            jQuery('#container>menu.sitemap').show().scrollintoview({duration: 1250, direction: 'vertical'});
+        }
+    });
+
     jQuery('#container>header>section>nav').bind('click', function() {
         jQuery(this).hasClass('open') ? jQuery(this).removeClass('open') : jQuery(this).addClass('open');
     });

@@ -181,8 +181,11 @@ body #container > footer {
   padding-bottom: 7px;
 }
 body #container > footer > section {
-  padding: 22px 0px 23px 0px;
   background-color: #c6c6c6;
+}
+body #container > footer > section > .content > div {
+  padding-top: 22px;
+  padding-bottom: 23px;
 }
 body #container > footer > section > .content > div > nav {
   margin: 0px;
@@ -1934,6 +1937,149 @@ body #container > article > section > .content > div h2.resources-icon-header.re
   width: 164px;
   height: 167px;
   background-position: 0px -173px;
+}
+
+body #container > footer > section > .content > a.sitemap-trigger {
+  display: block;
+  position: relative;
+  text-decoration: none;
+}
+body #container > footer > section > .content > a.sitemap-trigger > strong {
+  display: block;
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+  height: 30px;
+  padding-left: 12px;
+  padding-right: 12px;
+  background-color: #525099;
+  line-height: 32px;
+  font-size: 14px;
+  color: #fff;
+  font-weight: normal;
+  font-family: "Open Sans", sans-serif;
+  text-transform: uppercase;
+  -moz-border-radius-topleft: 10px;
+  -webkit-border-top-left-radius: 10px;
+  border-top-left-radius: 10px;
+  -moz-border-radius-topright: 10px;
+  -webkit-border-top-right-radius: 10px;
+  border-top-right-radius: 10px;
+}
+body #container > footer > section > .content > a.sitemap-trigger > strong:hover {
+  background-color: #2e308e;
+  color: #eee;
+}
+body #container > footer > section > .content > a.sitemap-trigger > strong:after {
+  display: block;
+  float: right;
+  width: 13px;
+  height: 8px;
+  margin-top: 12px;
+  margin-left: 8px;
+  background-image: url(../_images/sprites.png);
+  background-repeat: no-repeat;
+  background-position: -243px -56px;
+  content: "";
+  text-indent: -9999px;
+  text-align: left;
+}
+body #container > footer > section > .content > a.sitemap-trigger.open > strong {
+  background-color: #2e308e;
+}
+body #container > footer > section > .content > a.sitemap-trigger.open > strong:after {
+  background-position: -243px -72px;
+}
+body #container > menu.sitemap {
+  display: none;
+  margin: 0px;
+  padding: 0px 0px 50px 0px;
+  background-image: url(../_images/bg-tile-light.jpg);
+  background-repeat: repeat;
+  background-position: 0px 0px;
+}
+body #container > menu.sitemap > section {
+  padding-top: 55px;
+  padding-bottom: 19px;
+  background-image: url(../_images/bg-tile-darker.jpg);
+  background-repeat: repeat;
+  background-position: 0px 0px;
+  -webkit-border-bottom-right-radius: 100px;
+  -moz-border-radius-bottomright: 100px;
+  border-bottom-right-radius: 100px;
+}
+body #container > menu.sitemap > section > div {
+  position: relative;
+}
+body #container > menu.sitemap > section > div > h6 {
+  display: block;
+  margin: 0px 0px 23px 0px;
+  padding: 0px 0px 2px 0px;
+  border-bottom: 1px #989898 solid;
+  font-size: 18px;
+  color: #2f308f;
+  font-weight: bold;
+  font-family: "Open Sans", sans-serif;
+}
+body #container > menu.sitemap > section > div > h6 a {
+  color: #2f308f;
+  text-decoration: none;
+}
+body #container > menu.sitemap > section > div > h6 a:hover {
+  color: #2f308f;
+  text-decoration: none;
+}
+body #container > menu.sitemap > section > div > ul {
+  display: block;
+  margin: 0px;
+  padding: 0px 0px 25px 0px;
+  list-style: none;
+}
+body #container > menu.sitemap > section > div > ul > li {
+  display: block;
+  margin: 0px;
+  padding: 0px 0px 14px 0px;
+  list-style: none;
+}
+body #container > menu.sitemap > section > div > ul > li > a {
+  display: block;
+  color: #000;
+  text-decoration: none;
+  font-size: 16px;
+  line-height: 16px;
+  font-family: "Open Sans", sans-serif;
+  text-shadow: 0px 0px 0px #000;
+}
+body #container > menu.sitemap > section > div > ul > li > a:hover {
+  text-decoration: underline;
+}
+body #container > menu.sitemap > section > div > ul > li > ul {
+  position: relative;
+  margin: 0px 0px -5px 0px;
+  padding: 10px 0px 0px 0px;
+  list-style: none;
+}
+body #container > menu.sitemap > section > div > ul > li > ul > li {
+  margin: 0px 0px 0px 15px;
+  padding: 0px 0px 0px 20px;
+  background-image: url(../_images/bg-list-item-grey.png);
+  background-repeat: no-repeat;
+  background-position: 0px 8px;
+  list-style: none;
+}
+body #container > menu.sitemap > section > div > ul > li > ul > li:last-child {
+  margin-bottom: 0px;
+}
+body #container > menu.sitemap > section > div > ul > li > ul > li > a {
+  color: #000;
+  text-shadow: 0px 0px 0px #000;
+  font-size: 14px;
+  line-height: 14px;
+  font-family: "Open Sans", sans-serif;
+  text-decoration: none;
+}
+body #container > menu.sitemap > section > div > ul > li > ul > li > a:hover {
+  text-decoration: underline;
 }
 
 body #container > article > section > .content > div .spotlight {
